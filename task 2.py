@@ -7,7 +7,6 @@ def takeMsg():
         user_mes_type = ('E', 'W', 'I')
 
     res_dict = {}
-    res_list = []
     file_pos = 0
 
     with open('{}'.format(filename), 'r') as f:
